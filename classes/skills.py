@@ -1,5 +1,6 @@
 class Skill:
-  pass
+  def __init__(self):
+    pass
 
 class Active(Skill):
   pass
