@@ -1,12 +1,13 @@
 class Skill:
   def __init__(self):
-    pass
+    self.Name = None
+    self.Attribute = None
 
 class Active(Skill):
-  pass
+  self.Cost = None
 
 class Battle(Active):
-  pass
+  self.Cooldown = None
 
 class Field(Active):
   pass
