@@ -1,13 +1,14 @@
 from .skills import *
+from .attributes import *
 
 class Character:
   def __init__(self):
-    self.Strength = 0
-    self.Dexterity = 0
-    self.Constitution = 0
-    self.Intelligence = 0
-    self.Wisdom = 0
-    self.Charisma = 0
+    self.Strength = Primary("Strength")
+    self.Dexterity = Primary("Dexterity")
+    self.Constitution = Primary("Constitution")
+    self.Intelligence = Primary("Intelligence")
+    self.Wisdom = Primary("Wisdom")
+    self.Charisma = Primary("Charisma")
     
     self.Skills = Skills()
 
